@@ -40,9 +40,21 @@ A demo project for python.
 ## conda
 
 ```
-wget -P /tmp/  https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
+wget -c -P /tmp/ https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh
 
 bash /tmp/Miniconda3-latest-MacOSX-x86_64.sh
+
+conda info -e
+
+conda create -n demo
+
+conda activate demo python=3.7
+
+which python 
+
+python --version
+
+conda deactivate 
 ```
 
 ## pyenv
